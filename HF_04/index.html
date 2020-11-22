@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Form</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <main>
+        <section>
+
+            <article>
+                <h2>Kérem töltse ki a jelentkezési űrlapot</h2>
+                <form action="" method="post">
+                    <label for="nev">Név </label>
+                    <input type="text" id="nev" name="nev" maxlength="50" placeholder="pl.: Kovács János" required>
+
+                    <label for="szuletesi_hely">Születési hely</label><input type="text" id="szuletesi_hely" name="szuletesi_hely" maxlength="100" placeholder="pl.: Budapest" required>
+
+                    <label for="szuletesi_ido">Születési idő</label>
+                    <input type="date" id="szuletesi_ido" name="szuletesi_ido" maxlength="15" required>
+
+                    <label for="anya_neve">Édesanyja neve</label>
+                    <input type="text" id="anya_neve" name="anya_neve" maxlength="50" placeholder="pl.: Kiss Virág" required>
+
+                    <label for="email">E-mail cím</label>
+                    <input type="email" id="email" name="email" maxlength="100" placeholder="valami@valami.hu" required>
+
+                    <label for="telefon">Telefonszám</label>
+                    <input type="tel" id="telefon" name="telefon" maxlength="15" placeholder="+36-20-12-34-567" pattern="[0-9]{2}-[0-9]{2}-[0-9]{2}-[0-9]{2}-[0-9]{3}" required>
+
+                    <div class="sor">
+                        <div class="oszlop-1">
+                            <label>Neme</label>
+                        </div>
+
+                        <div class="oszlop-2">
+                            <input type="radio" id="ferfi" name="gender" value="ferfi">
+                            <label for="ferfi">Férfi</label>
+                            <input type="radio" id="no" name="gender" value="no">
+                            <label for="no">Nő</label>
+                            <input type="radio" id="egyeb" name="gender" value="egyeb">
+                            <label for="egyeb">egyéb</label>
+                        </div>
+                    </div>
+
+                    <div class="sor">
+                        <div class="oszlop-1">
+                            <label>Melyik tanfolyam érdekli</label>
+                        </div>
+
+                        <div class="oszlop-2">
+                            <input type="checkbox" id="html" name="tanfolyam" value="html" checked>
+                            <label for="html">HTML</label>
+                            <input type="checkbox" id="css" name="tanfolyam" value="css">
+                            <label for="CSS">CSS</label>
+                            <input type="checkbox" id="bootstrap" name="tanfolyam" value="bootstrap">
+                            <label for="bootstrap">Bootstrap</label>
+                        </div>
+                    </div>
+
+                    <div class="sor">
+                        <label for="uzenet">Egyéb üzenet</label>
+                        <textarea rows="20" cols="60" id="uzenet" name="uzenet">Írjon ide bármit, ami fontos lehet...
+                        
+                        </textarea>
+                    </div>
+
+                    <input type="submit" name="elkuld" value="Mehet">
+                </form>
+            </article>
+        </section>
+
+    </main>
+</body></html>

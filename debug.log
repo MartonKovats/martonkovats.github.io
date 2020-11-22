@@ -1,0 +1,14 @@
+[1120/192903.496:ERROR:crash_report_database_win.cc(609)] CreateDirectory C:\ProgramData\Safe Family\Logs: A hozzáférés megtagadva. (0x5)
+[1120/192903.512:ERROR:exit_code_watcher_win.cc(87)] Failed to wait for process exit or stop event
+[1120/192903.525:ERROR:registration_protocol_win.cc(131)] TransactNamedPipe: A pipe használata befejezõdött. (0x6D)
+[1120/192903.529:ERROR:crash_report_database_win.cc(609)] CreateDirectory C:\ProgramData\Safe Family\Logs: A hozzáférés megtagadva. (0x5)
+[1120/193000.940:ERROR:crash_report_database_win.cc(609)] CreateDirectory C:\ProgramData\Safe Family\Logs: A hozzáférés megtagadva. (0x5)
+[1120/193000.984:ERROR:registration_protocol_win.cc(131)] TransactNamedPipe: A pipe használata befejezõdött. (0x6D)
+[1120/193000.993:ERROR:crash_report_database_win.cc(609)] CreateDirectory C:\ProgramData\Safe Family\Logs: A hozzáférés megtagadva. (0x5)
+[1120/194456.168:ERROR:crash_report_database_win.cc(609)] CreateDirectory C:\ProgramData\Safe Family\Logs: A hozzáférés megtagadva. (0x5)
+[1120/194456.180:ERROR:exit_code_watcher_win.cc(87)] Failed to wait for process exit or stop event
+[1120/194456.228:ERROR:registration_protocol_win.cc(131)] TransactNamedPipe: A pipe használata befejezõdött. (0x6D)
+[1120/194456.231:ERROR:crash_report_database_win.cc(609)] CreateDirectory C:\ProgramData\Safe Family\Logs: A hozzáférés megtagadva. (0x5)
+[1120/194630.770:ERROR:crash_report_database_win.cc(609)] CreateDirectory C:\ProgramData\Safe Family\Logs: A hozzáférés megtagadva. (0x5)
+[1120/194630.801:ERROR:registration_protocol_win.cc(131)] TransactNamedPipe: A pipe használata befejezõdött. (0x6D)
+[1120/194630.804:ERROR:crash_report_database_win.cc(609)] CreateDirectory C:\ProgramData\Safe Family\Logs: A hozzáférés megtagadva. (0x5)
