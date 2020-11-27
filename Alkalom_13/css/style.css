@@ -35,3 +35,25 @@ body {
     grid-column: 2/4;
     grid-row: 2/4;
 }
+
+ul {
+    list-style-type: none;
+    padding: 0 5px;
+}
+
+li {
+    display: block;
+    background-color: azure;
+    text-align: left;
+    width: 100%;
+    padding: 5px;
+}
+
+a {
+    text-decoration: none;
+}
+
+li:hover {
+    background-color:brown;
+    color: azure;
+}
