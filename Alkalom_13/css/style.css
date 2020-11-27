@@ -22,13 +22,21 @@ body {
 }
 
 #header,
-#footer{
+#footer {
     grid-column: 1/5;
+}
+
+#footer {
+    background-color: darkorange;
 }
 
 #left,
 #right {
     grid-row: 2/4;
+}
+
+#left {
+    background-color: azure;
 }
 
 #main {
@@ -39,21 +47,19 @@ body {
 ul {
     list-style-type: none;
     padding: 0 5px;
+    margin-right: 10px;
 }
 
-li {
+li a {
     display: block;
+    text-decoration: none;
     background-color: azure;
     text-align: left;
     width: 100%;
     padding: 5px;
 }
 
-a {
-    text-decoration: none;
-}
-
-li:hover {
-    background-color:brown;
+li a:hover {
+    background-color: brown;
     color: azure;
 }
