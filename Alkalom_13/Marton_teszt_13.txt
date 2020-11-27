@@ -1,0 +1,41 @@
+1.
+#valami
+.valami
+.col-
+required
+
+2.
+<main></main>
+<nav></nav>
+<section></section>
+<article></article>
+<footer></footer>
+Azért, hogy egységes legyen a kód, a kereső robotok jobban be tudják azonosítani.
+
+3.
+display: grid;
+
+4.
+grid-gap: 25px;
+
+5.
+pseudo class:
+egy elem állapotát határozza meg pl.
+.class:hover
+.class:visited
+.class:focus
+
+pseudo elem:
+egy elem bizonyos részét formázza pl.
+.class::first-line  
+.class::first-letter
+.class::after
+
+6.
+a. sztem kéne benne lennie legalább egy értéknek is pl 1 fr.
+
+b. nem jó. nincs mihez képest floatolni.
+
+c. nem jó.
+
+d. jó.
