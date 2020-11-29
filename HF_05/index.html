@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <title>Grid és form</title>
+</head>
+
+<body>
+    <main class="grid-container">
+        <header>
+            <picture>
+                <source srcset="img/header/strand-4.jpg" media="(min-width: 601px)">
+                <source srcset="img/header/strand-3.jpg" media="(max-width: 600px)">
+                <img src="img/header/strand-3.jpg" alt="Strand" title="Strand">
+            </picture>
+        </header>
+
+        <aside>
+            <nav>
+                <ul>
+                    <li><a href="#section-1">Balaton</a></li>
+                    <li><a href="#section-2">Tisza-tó</a></li>
+                    <li><a href="#section-3">Szelidi-tó</a></li>
+                </ul>
+            </nav>
+
+            <form action="" method="post">
+                <h3>Kérem töltse ki a jelentkezési űrlapot</h3>
+
+                <label for="nev">Név</label>
+                <input type="text" id="nev" name="nev" maxlength="50" placeholder="pl.: Kovács János">
+
+                <label for="email">E-mail cím</label>
+                <input type="email" id="email" name="email" maxlength="100" placeholder="valami@valami.hu">
+
+                <label for="tel">Telefonszám</label>
+                <input type="tel" id="tel" name="tel" maxlength="15" placeholder="+36-20-12-34-567" pattern="[0-9]{2}-[0-9]{2}-[0-9]{2}-[0-9]{2}-[0-9]{3}">
+
+                <label for="to">Melyik tó érdekli?</label>
+                <select name="to" id="to">
+                    <option value="none" disabled selected>-- Válasszon --</option>
+                    <option value="balaton">Balaton</option>
+                    <option value="tisza">Tisza-tó</option>
+                    <option value="szelidi">Szelidi-tó</option>
+                </select>
+
+                <label for="szallas">Milyen szállást keres?</label>
+                <select name="szallas" id="szallas" multiple>
+                    <option value="none" disabled selected>-- Válasszon (több: ctrl+klikk) --</option>
+                    <option value="szalloda">szálloda</option>
+                    <option value="apartman">apartmanház</option>
+                    <option value="kemping">kemping</option>
+                </select>
+
+                <label for="ellatas">Milyen ellátás legyen?</label>
+                <select name="ellatas" id="ellatas">
+                    <option value="none" disabled selected>-- Válasszon --</option>
+                    <option value="teljes">teljes</option>
+                    <option value="felpanzio">félpanzió</option>
+                    <option value="reggeli">csak reggeli</option>
+                    <option value="nem-ker">nem kérek ellátást</option>
+                </select>
+
+                <label for="uzenet">Egyéb üzenet</label>
+                <textarea name="uzenet" id="uzenet" cols=auto rows="10"></textarea>
+
+                <input type="submit" value="Mehet">
+
+            </form>
+
+        </aside>
+
+        <section id="section-1"><img src="img/balaton.jpg" alt="Balaton"> 
+           <h2>Balaton</h2>
+           A Balaton és környéke Magyarország legnépszerűbb üdülőhelye, amely vonzó úticél a hazai és külföldi turisták számára egyaránt. Nem véletlenül van így, hiszen vízparti kikapcsolódás, történelmi emlékek, különleges természeti értékek, remek kirándulási lehetőségek várják a látogatókat a "magyar tengernél". Az alábbiakban megpróbáljuk összefoglalni, hogy miért is érdemes felkeresni ezt a régiót. de mindenekelőtt néhány érdekes információ, adat olvasható a tóval kapcsolatban. <br>
+            A közel 10-12 ezer éves Balaton Magyarország és egyben Közép-Európa legnagyobb tava. A tó úgy keletkezett, hogy kb. 30-35 ezer évvel ezelőtt a Föld kőzetburkában található kisebb kőzetlemezek elmozdulásának következtében a térségben süllyedékek, medencék jöttek létre, melyeket ellepett a víz. Legnagyobb táplálója a Zala folyó. Mivel a tónak állandó, természetes kifolyója nem volt, vízszintje az idők során erősen ingadozott; felszíne az eredetihez képest a beletorkolló vízfolyások feltöltő munkája következtében jelentősen csökkent. A víz magasságát ma a Sió-zsilippel szabályozzák, mely a Sió-csatornán keresztül levezeti a vízhozam egy részét.</section>
+            
+        <section id="section-2"><img src="img/tisza-to.jpg" alt="Tisza-tó"> 
+           <h2>Tisza-tó</h2>
+           A Tisza-tó, vagy hivatalos nevén Kiskörei-víztározó hazánk második legnagyobb állóvize, mely mesterséges eredetű. A tározó megvalósításának ötlete az 1960-as években alakult ki, ami több célt is szolgált. Elsődleges célkitűzés a Tisza folyón érkező árhullámok által hozott víztöbblet tárolása, s ezáltal a térség árvízmentesítése volt. Másodlagosan a térség mezőgazdasági területeinek vízellátását hivatott javítani, tekintve, hogy Magyarország egyik legszárazabb térsége a Közép-Tisza vidék. Harmadlagos fő célkitűzésként a térség energiaellátását kívánták elősegíteni a Kiskörei Tisza-szakasznál megépített vízerőművel. Mivel további előnyök is várhatóak voltak a Tisza-tó létrehozásával, ezért később előtérbe kerültek a turisztikai és természetvédelmi célkitűzések is. <br>
+            A víztározó területén eredetileg egy igen mozaikos, nagyon gazdag élővilággal rendelkező terület helyezkedett el, kezdve a Tisza árterétől a települések határában elhelyezkedő gyümölcsösökön, szántókon, kaszálókon keresztül a ma már sajnos egyetlen állománnyal rendelkező őstölgyesekig. Ezeket az élőhelyeket fel kellett számolni ahhoz, hogy eláraszthassák a tározó medrét. Ezt egyrészt az erdők és gyümölcsösök kivágásával és nem teljes mértékű elhordásával, illetve a meder kialakításával valósították meg. A kinyert földet a tavat átszelő 33-as főút, illetve a tározó gátjának töltéséhez használták fel.</section>
+            
+        <section id="section-3"><img src="img/szelidi-to.jpg" alt="Szelidi-tó"> 
+           <h2>Szelidi-tó</h2>
+           A Kiskunság legkedveltebb kiránduló- és üdülõhelye - tavasztól õszig egészen biztosan - a Szelidi-tó. A tó homokos strandja, szállodája, kempingjei, magánüdülõi, vendéglõi, szabadtéri színpada nyugodt kikapcsolódást és mozgalmasabb szórakozást is kínálnak az idelátogató vendégeknek.
+            Szelidi-tó 5 km hosszú, 150-200 m széles, 3-4 m mély, vízfelülete megközelítõleg 80 ha., ezzel hazánk ötödik legnagyobb tava. A tó déli partján nyugalomba jutott futóhomok területein kellemes strandok kerületek kialakításra. <br>
+            Szelid neve a közeli Várdomb erõdítményével és a török idõk harcaival függhet össze, ugyanis a török csapatok a magyar túlerõt látva, megállásra és kompromisszumokra kényszerültek "megszelidültek" ezen a területen.
+            A tavat a még a Duna vize mélyített ki évezredekkel ezelõtt. Jelenleg 4km hosszú, szélessége átlagosan 150-200m között mozog, átlagos vízmélysége 3-4 méter, vize nyáron akár 28°C-ra is felmelegedhet, így fürdõzésre kiválóan alkalmas. A talajból sok nátrium-magnézium-karbonát és nátrium-jodid oldódik ki, ezért már a középkorban sebgyógyításra használták, ma inkább idegrendszeri, hormonális és reumatikus bántalmak kezelésére ajánlják.
+            Vize szagtalan a gyógyfürdõkkel ellentétben, jelenleg még nem minõsített gyógyvíz, ezért üdülõfalu létesült a környezetében.
+        </section>
+
+        <footer>Prooktatás &copy; 2020</footer>
+    </main>
+</body></html>
