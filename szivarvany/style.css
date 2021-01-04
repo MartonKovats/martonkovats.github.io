@@ -3,7 +3,7 @@ html {
 }
 
 .navbar {
-	opacity: 0.8;
+	opacity: 0.85;
 }
 
 .container-fluid {
@@ -12,10 +12,11 @@ html {
 }
 
 .row {
-	padding: 50px;
+	padding: 50px 0;
 }
 
-#rolunk, #fellepesek {
+#rolunk,
+#fellepesek {
 	background-color: #fffaf3;
 }
 
@@ -25,16 +26,16 @@ html {
 }
 
 .head-lila {
-	background-color: rgba(181,30,146,0.5);
-	
+	background-color: rgba(181, 30, 146, 0.5);
+
 }
 
 .halvany-lila1 {
-	background-color: rgba(181,30,146,0.2);
+	background-color: rgba(181, 30, 146, 0.2);
 }
 
 .halvany-lila2 {
-	background-color: rgba(181,30,146,0.1);
+	background-color: rgba(181, 30, 146, 0.1);
 }
 
 .kek {
@@ -42,8 +43,18 @@ html {
 	color: #FFFFFF;
 }
 
+.barna {
+	background-color: chocolate;
+	color: #FFFFFF;
+}
+
 .zold {
 	background-color: #48D98C;
+	color: #FFFFFF;
+}
+
+.sarga {
+	background-color: greenyellow;
 	color: #FFFFFF;
 }
 
@@ -57,61 +68,89 @@ body {
 }*/
 
 .container.gallery-container {
-    background-color: #fff;
-    color: #35373a;
-    min-height: 100vh;
-    border-radius: 20px;
-    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.06);
+	background-color: #fff;
+	color: #35373a;
+	min-height: 100vh;
+	border-radius: 20px;
+	box-shadow: 0 8px 15px rgba(0, 0, 0, 0.06);
 }
 
 .gallery-container h1 {
-    text-align: center;
-    margin-top: 70px;
-    font-family: 'Droid Sans', sans-serif;
-    font-weight: bold;
+	text-align: center;
+	margin-top: 70px;
+	font-family: 'Droid Sans', sans-serif;
+	font-weight: bold;
 }
 
 .gallery-container p.page-description {
-    text-align: center;
-    max-width: 800px;
-    margin: 25px auto;
-    color: #888;
-    font-size: 18px;
+	text-align: center;
+	max-width: 800px;
+	margin: 25px auto;
+	color: #888;
+	font-size: 18px;
 }
 
 .tz-gallery {
-    padding: 40px;
+	padding: 40px;
 }
 
 .tz-gallery .lightbox img {
-    width: 100%;
-    margin-bottom: 30px;
-    transition: 0.2s ease-in-out;
-    box-shadow: 0 2px 3px rgba(0,0,0,0.2);
+	width: 100%;
+	margin-bottom: 30px;
+	transition: 0.2s ease-in-out;
+	box-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);
 }
 
 
 .tz-gallery .lightbox img:hover {
-    transform: scale(1.05);
-    box-shadow: 0 8px 15px rgba(0,0,0,0.3);
+	transform: scale(1.05);
+	box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
 }
 
 .tz-gallery img {
-    border-radius: 4px;
+	border-radius: 4px;
 }
 
 .baguetteBox-button {
-    background-color: transparent !important;
+	background-color: transparent !important;
 }
 
 
 @media(max-width: 768px) {
-    body {
-        padding: 0;
-    }
+	body {
+		padding: 0;
+	}
 
-    .container.gallery-container {
-        border-radius: 0;
-    }
+	.container.gallery-container {
+		border-radius: 0;
+	}
 }
+
 /* Fellépések - gallery end */
+
+/* Footer start */
+
+.bg-footer {
+	background-color: black;
+	color: white;
+	padding: 20px 0;
+}
+
+.fa {
+	padding: 5px;
+	font-size: 1em;
+	text-align: center;
+	text-decoration: none;
+}
+
+.fa:hover {
+	opacity: 0.6;
+	color: white;
+	text-decoration:none;
+}
+
+.fa-facebook {
+	background: #3B5998;
+	color: white;
+
+	/* Footer end */

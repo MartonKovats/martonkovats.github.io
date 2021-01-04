@@ -9,6 +9,7 @@
 	<!-- Favicons -->
 	<link rel="icon" href="img/logo-favicon.png">
 	<link rel="apple-touch-icon" href="img/logo-apple-touch-icon.png">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 	<title>Szivárvány táncszínház</title>
 
@@ -20,6 +21,7 @@
 
 	<!-- Place your stylesheet here-->
 	<link href="/style.css" rel="stylesheet" type="text/css">
+
 
 	<!--Fellépések - gallery-->
 	<!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">-->
@@ -45,6 +47,9 @@
 					<a class="nav-link" href="#rolunk">Rólunk<span class="sr-only">(current)</span></a>
 				</li>
 				<li class="nav-item">
+					<a class="nav-link" href="#helyszinek">Helyszínek<span class="sr-only">(current)</span></a>
+				</li>
+				<li class="nav-item">
 					<a class="nav-link" href="#orarend">Órarendek<span class="sr-only">(current)</span></a>
 				</li>
 				<li class="nav-item">
@@ -67,18 +72,23 @@
 				<li data-target="#demo" data-slide-to="0" class="active"></li>
 				<li data-target="#demo" data-slide-to="1"></li>
 				<li data-target="#demo" data-slide-to="2"></li>
+				<li data-target="#demo" data-slide-to="3"></li>
 			</ul>
 
 			<!-- The slideshow -->
 			<div class="carousel-inner">
 				<div class="carousel-item active">
-					<img src="img/carousel-1-mod.jpg" alt="#">
+
+					<img class="img-fluid" src="img/carousel-1.jpg" alt="#">
 				</div>
 				<div class="carousel-item">
-					<img src="img/carousel-2-mod.jpg" alt="#">
+					<img class="img-fluid" src="img/carousel-2.jpg" alt="#">
 				</div>
 				<div class="carousel-item">
-					<img src="img/carousel-3-mod.jpg" alt="#">
+					<img class="img-fluid" src="img/carousel-3.jpg" alt="#">
+				</div>
+				<div class="carousel-item">
+					<img class="img-fluid" src="img/carousel-4.jpg" alt="#">
 				</div>
 			</div>
 
@@ -94,141 +104,257 @@
 
 		<!--Rolunk start-->
 
-		<div id="rolunk" class="row">
-			<div class="col-lg-6 col-sm-12 embed-responsive-item">
-				<iframe class="embed-responsive" width="1439" height="519" src="https://www.youtube.com/embed/Wsmw555w0nE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-			</div>
-			<div class="col-lg-6 col-sm-12">
-				<h2>Rólunk</h2>
-				<p>Néhány mondat az egyesületről. Főleg arról, hogy mit tanítotok, milyen a hangulat.
-					Sok tánc stílusok keveredése, ezért szivárvány a neve (Showtánc).
-					Fő profil: szórakozás és év végi bemutató.
-					Családias hangulat, többen is beleszólhatnak a munkába, koreográfiába.
-					Sok koreo tanulása.</p>
+		<div id="rolunk" class="container-fluid">
+			<div class="row">
+				<div class="col-12 col-sm-12 col-lg-6  embed-responsive-item">
+					<iframe class="embed-responsive" width="1439" height="519" src="https://www.youtube.com/embed/Wsmw555w0nE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</div>
+				<div class="col-12 col-sm-12 col-lg-6">
+					<h2>Rólunk</h2>
+					<p>Néhány mondat az egyesületről. Főleg arról, hogy mit tanítotok, milyen a hangulat.
+						Sok tánc stílusok keveredése, ezért szivárvány a neve (Showtánc).
+						Fő profil: szórakozás és év végi bemutató.
+						Családias hangulat, többen is beleszólhatnak a munkába, koreográfiába.
+						Sok koreo tanulása.</p>
+				</div>
 			</div>
 		</div>
 
 		<!--Rolunk end-->
 
-		<!--Órarend start-->
-		<div id="orarend" class="container table-responsive">
-		<h2>Órarend</h2>
-		<div class="list-group">
-			<a href="" class="list-group-item list-group-item-action lila">Hegyvidék szalon / Zsófi / Gyerek 9-14 évesek</a>
-			<a href="" class="list-group-item list-group-item-action zold">Gazdagréti közösségi ház / Manó / Laura / Gyerek 9-12 évesek / Haladó 0-99 évesek</a>
-			<a href="" class="list-group-item list-group-item-action kek">Jókai klub / Manó / Gyerek 7-11 évesek / Gyerek 9-14 évesek</a>
-		</div>
-		<br><br>
-			<div class="text-center">
-				<div>
-					<div class="d-flex head-lila">
-						<div class="col-lg-2 col-sm-4">idő</div>
-						<div class="col-lg-2 col-sm-4">Hétfő</div>
-						<div class="col-lg-2 col-sm-4">Kedd</div>
-						<div class="col-lg-2 col-sm-4">Szerda</div>
-						<div class="col-lg-2 col-sm-4">Csütörtök</div>
-						<div class="col-lg-2 col-sm-4">Péntek</div>
-					</div>
+		<!--Helyszínek start-->
+
+		<div id="helyszinek" class="container">
+			<h2 class="text-center">Az alábbi helyszíneken tartunk edzéseket</h2>
+			<div class="row shadow mt-5 mb-5">
+
+				<div class="col-12 col-sm-12 col-lg-4">
+					<h4>Hegyvidéki Kulturális Szalon</h4>
+					<p>Budapest, Törpe u. 2, 1124</p>
 				</div>
-				<div>
-					<div class="d-flex halvany-lila2">
-						<div class="col-lg-2 col-sm-4">16:00-16:30</div>
-						<div class="col-lg-2 col-sm-4"></div>
-						<div class="col-lg-2 col-sm-4 d-flex justify-content-center">
-							<div class="p-2 lila col-12">Hegyvidék szalon / Zsófi / Gyerek 9-14 évesek</div>
-							<div class="p-2 kek col-12">Jókai klub / Manó / Gyerek 7-11 évesek</div>
-						</div>
-						<div class="col-lg-2 col-sm-4 d-flex justify-content-center">
-							<div class="p-2 zold col-12"></div>
-						</div>
-						<div class="col-lg-2 col-sm-4 d-flex justify-content-center">
-							<div class="p-2 lila">Hegyvidék szalon / Zsófi / Gyerek 9-14 évesek</div>
-							<div class="p-2"></div>
-						</div>
-						<div class="col-lg-2 col-sm-4 d-flex justify-content-center">
-							<div class="p-2 zold"></div>
-						</div>
-					</div>
-					<div class="d-flex halvany-lila1">
-						<div class="col-lg-2 col-sm-4">16:30-17:00</div>
-						<div class="col-lg-2 col-sm-4"></div>
-						<div class="col-lg-2 col-sm-4 d-flex justify-content-center">
-							<div class="p-2 lila">Hegyvidék szalon / Zsófi / Gyerek 9-14 évesek</div>
-							<div class="p-2 kek">Jókai klub / Manó / Gyerek 7-11 évesek</div>
-						</div>
-						<div class="col-lg-2 col-sm-4 d-flex justify-content-center">
-							<div class="p-2 zold"></div>
-						</div>
-						<div class="col-lg-2 col-sm-4 d-flex justify-content-center">
-							<div class="p-2 lila">Hegyvidék szalon / Zsófi / Gyerek 9-14 évesek</div>
-							<div class="p-2 kek"></div>
-						</div>
-						<div class="col-lg-2 col-sm-4 d-flex justify-content-center">
-							<div class="p-2 zold"></div>
-						</div>
-					</div>
-					<div class="d-flex halvany-lila2">
-						<div class="col-lg-2 col-sm-4">17:00-17:30</div>
-						<div class="col-lg-2 col-sm-4"></div>
-						<div class="col-lg-2 col-sm-4 d-flex justify-content-center">
-							<div class="p-2"></div>
-							<div class="p-2 kek"></div>
-						</div>
-						<div class="col-lg-2 col-sm-4 d-flex justify-content-center">
-							<div class="p-2 zold"></div>
-						</div>
-						<div class="col-lg-2 col-sm-4 d-flex justify-content-center">
-							<div class="p-2"></div>
-							<div class="p-2 kek"></div>
-						</div>
-						<div class="col-lg-2 col-sm-4 d-flex justify-content-center">
-							<div class="p-2 zold"></div>
-						</div>
-					</div>
-					<div class="d-flex halvany-lila1">
-						<div class="col-lg-2 col-sm-4">17:30-18:00</div>
-						<div class="col-lg-2 col-sm-4"></div>
-						<div class="col-lg-2 col-sm-4 d-flex justify-content-center">
-							<div class="p-2"></div>
-							<div class="p-2 kek"></div>
-						</div>
-						<div class="col-lg-2 col-sm-4 d-flex justify-content-center">
-							<div class="p-2 zold"></div>
-						</div>
-						<div class="col-lg-2 col-sm-4 d-flex justify-content-center">
-							<div class="p-2"></div>
-							<div class="p-2 kek"></div>
-						</div>
-						<div class="col-lg-2 col-sm-4 d-flex justify-content-center">
-							<div class="p-2 zold"></div>
-						</div>
-					</div>
-					<div class="d-flex halvany-lila2">
-						<div class="col-lg-2 col-sm-4">18:00-18:30</div>
-						<div class="col-lg-2 col-sm-4"></div>
-						<div class="col-lg-2 col-sm-4"></div>
-						<div class="col-lg-2 col-sm-4"></div>
-						<div class="col-lg-2 col-sm-4 d-flex justify-content-center">
-							<div class="p-2"></div>
-							<div class="p-2 kek"></div>
-						</div>
-						<div class="col-lg-2 col-sm-4 d-flex justify-content-center">
-							<div class="p-2 zold"></div>
-						</div>
-					</div>
-					<div class="d-flex halvany-lila1">
-						<div class="col-lg-2 col-sm-4">18:30-19:00</div>
-						<div class="col-lg-2 col-sm-4"></div>
-						<div class="col-lg-2 col-sm-4"></div>
-						<div class="col-lg-2 col-sm-4"></div>
-						<div class="col-lg-2 col-sm-4"></div>
-						<div class="col-lg-2 col-sm-4 d-flex justify-content-center">
-							<div class="p-2 zold"></div>
-						</div>
-					</div>
+				<div class="col-12 col-sm-12 col-lg-8" id="hegyvidek" style="height:400px;"></div>
+
+			</div>
+
+			<div class="row shadow mt-5 mb-5">
+				<div class="col-12 col-sm-12 col-lg-8" id="gazdagret" style="height:400px;">
+
+				</div>
+				<div class="col-12 col-sm-12 col-lg-4">
+					<h4>Gazdagréti Közösségi Ház</h4>
+					<p>Budapest, Törökugrató u. 9, 1118</p>
 				</div>
 			</div>
-		
+
+			<div class="row shadow mt-5 mb-5">
+				<div class="col-12 col-sm-12 col-lg-4">
+					<h4>Jókai Klub</h4>
+					<p>Budapest, Hollós út 5, 1121</p>
+				</div>
+				<div class="col-12 col-sm-12 col-lg-8" id="jokai" style="height:400px;">
+
+				</div>
+
+			</div>
+
+		</div>
+
+		<!--Helyszínek end-->
+
+		<!--Órarend start-->
+
+		<div id="orarend" class="container table-responsive">
+			<h2 class="text-center">Órarend</h2>
+			<div class="list-group">
+				<a href="" class="list-group-item list-group-item-action lila">Hegyvidék szalon / Zsófi / Gyerek 9-14 évesek</a>
+				<a href="" class="list-group-item list-group-item-action zold">Gazdagréti közösségi ház / Laura / Gyerek 9-12 évesek</a>
+				<a href="" class="list-group-item list-group-item-action barna">Gazdagréti közösségi ház / Manó / Haladó 0-99 évesek</a>
+				<a href="" class="list-group-item list-group-item-action kek">Jókai klub / Manó / Gyerek 7-11 évesek</a>
+				<a href="" class="list-group-item list-group-item-action sarga">Jókai klub / Manó / Gyerek 9-14 évesek</a>
+			</div>
+			<br><br>
+
+			<!--<table class="table table-bordered table-responsive">
+				<thead>
+					<tr>
+						<th>idő</th>
+						<th>Hétfő</th>
+						<th>Kedd</th>
+						<th>Szerda</th>
+						<th>Csütörtök</th>
+						<th>Péntek</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>16:00-16:30</td>
+						<td class="lila">Doe</td>
+						<td>john@example.com</td>
+						<td>Mary</td>
+						<td>Mary</td>
+						<td>Mary</td>
+					</tr>
+					<tr>
+						<td>16:30-17:00</td>
+						<td>Mary</td>
+						<td>mary@example.com</td>
+						<td>Mary</td>
+						<td>Mary</td>
+						<td>Mary</td>
+					</tr>
+					<tr>
+						<td>17:00-17:30</td>
+						<td>Mary</td>
+						<td>mary@example.com</td>
+						<td>Mary</td>
+						<td>Mary</td>
+						<td>Mary</td>
+					</tr>
+					<tr>
+						<td>17:30-18:00</td>
+						<td>Mary</td>
+						<td>mary@example.com</td>
+						<td>Mary</td>
+						<td>Mary</td>
+						<td>Mary</td>
+					</tr>
+					<tr>
+						<td>18:00-18:30</td>
+						<td>Mary</td>
+						<td>mary@example.com</td>
+						<td>Mary</td>
+						<td>Mary</td>
+						<td>Mary</td>
+					</tr>
+					<tr>
+						<td>18:30-19:00</td>
+						<td>Mary</td>
+						<td>mary@example.com</td>
+						<td>Mary</td>
+						<td>Mary</td>
+						<td>Mary</td>
+					</tr>
+				</tbody>
+			</table>-->
+			<div class="text-center small">
+			
+					<div class="d-flex flex-row justify-content-between head-lila">
+						<div class="">idő</div>
+						<div class="">Hétfő</div>
+						<div class="">Kedd</div>
+						<div class="">Szerda</div>
+						<div class="">Csütörtök</div>
+						<div class="">Péntek</div>
+					</div>
+				
+					<div class="d-flex flex-row justify-content-between halvany-lila2">
+						<div class="">16:00-16:30</div>
+						<div class=""> </div>
+						<div class=" d-flex flex-row justify-content-center">
+							<div class="lila">Hegyvidék<br><span class="font-weight-bold">Zsófi</span></div>
+							<div class="kek">Jókai klub<br><span class="font-weight-bold">Manó</span></div>
+						</div>
+						<div class="d-flex flex-row justify-content-center">
+							<div class="barna">Gazdagrét<br><span class="font-weight-bold">Manó</span></div>
+							<div class=""> </div>
+						</div>
+						<div class="d-flex flex-row justify-content-center">
+							<div class="lila">Hegyvidék<br><span class="font-weight-bold">Zsófi</span></div>
+							<div class=""> </div>
+						</div>"
+						<div class="d-flex flex-row justify-content-center">
+							<div class="barna">Gazdagrét<br><span class="font-weight-bold">Manó</span></div>
+							<div class=""> </div>
+						</div>
+					</div>
+					<div class="d-flex halvany-lila1">
+						<div class="flex-fill">16:30-17:00</div>
+						<div class="flex-fill"></div>
+						<div class="flex-fill d-flex justify-content-center">
+							<div class="flex-fill lila">Hegyvidék<br><span class="font-weight-bold">Zsófi</span></div>
+							<div class="flex-fill kek">Jókai klub<br><span class="font-weight-bold">Manó</span></div>
+						</div>
+						<div class="flex-fill d-flex justify-content-center">
+							<div class="flex-fill barna">Gazdagrét<br><span class="font-weight-bold">Manó</span></div>
+							<div class="flex-fill"></div>
+						</div>
+						<div class="flex-fill d-flex justify-content-center">
+							<div class="flex-fill lila">Hegyvidék<br><span class="font-weight-bold">Zsófi</span></div>
+							<div class="flex-fill kek">Jókai klub<br><span class="font-weight-bold">Manó</span></div>
+						</div>
+						<div class="flex-fill d-flex justify-content-center">
+							<div class="flex-fill barna">Gazdagrét<br><span class="font-weight-bold">Manó</span></div>
+							<div class="flex-fill"></div>
+						</div>
+					</div>
+					<div class="d-flex halvany-lila2">
+						<div class="flex-fill">17:00-17:30</div>
+						<div class="flex-fill"></div>
+						<div class="flex-fill d-flex justify-content-center">
+							<div class="flex-fill"></div>
+							<div class="flex-fill sarga">Jókai klub<br><span class="font-weight-bold">Manó</span></div>
+						</div>
+						<div class="flex-fill d-flex justify-content-center">
+							<div class="flex-fill barna">Gazdagrét<br><span class="font-weight-bold">Manó</span></div>
+							<div class="flex-fill"></div>
+						</div>
+						<div class="flex-fill d-flex justify-content-center">
+							<div class="flex-fill"></div>
+							<div class="flex-fill kek">Jókai klub<br><span class="font-weight-bold">Manó</span></div>
+						</div>
+						<div class="flex-fill d-flex justify-content-center">
+							<div class="flex-fill barna">Gazdagrét<br><span class="font-weight-bold">Manó</span></div>
+							<div class="flex-fill"></div>
+						</div>
+					</div>
+					<div class="d-flex halvany-lila1">
+						<div class="flex-fill">17:30-18:00</div>
+						<div class="flex-fill"></div>
+						<div class="flex-fill d-flex justify-content-center">
+							<div class="flex-fill"></div>
+							<div class="flex-fill sarga">Jókai klub<br><span class="font-weight-bold">Manó</span></div>
+						</div>
+						<div class="flex-fill d-flex justify-content-center">
+							<div class="flex-fill barna">Gazdagrét<br><span class="font-weight-bold">Manó</span></div>
+							<div class="flex-fill"></div>
+						</div>
+						<div class="flex-fill d-flex justify-content-center">
+							<div class="flex-fill"></div>
+							<div class="flex-fill sarga">Jókai klub<br><span class="font-weight-bold">Manó</span></div>
+						</div>
+						<div class="flex-fill d-flex justify-content-center">
+							<div class="flex-fill barna">Gazdagrét<br><span class="font-weight-bold">Manó</span></div>
+							<div class="flex-fill"></div>
+						</div>
+					</div>
+					<div class="d-flex halvany-lila2">
+						<div class="flex-fill">18:00-18:30</div>
+						<div class="flex-fill"></div>
+						<div class="flex-fill"></div>
+						<div class="flex-fill"></div>
+						<div class="flex-fill d-flex justify-content-center">
+							<div class="flex-fill"></div>
+							<div class="flex-fill sarga">Jókai klub<br><span class="font-weight-bold">Manó</span></div>
+						</div>
+						<div class="flex-fill d-flex justify-content-center">
+							<div class="flex-fill barna">Gazdagrét<br><span class="font-weight-bold">Manó</span></div>
+							<div class="flex-fill"></div>
+						</div>
+					</div>
+					<div class="d-flex halvany-lila1">
+						<div class="flex-fill">18:30-19:00</div>
+						<div class="flex-fill"></div>
+						<div class="flex-fill"></div>
+						<div class="flex-fill"></div>
+						<div class="flex-fill"></div>
+						<div class="flex-fill d-flex justify-content-center">
+							<div class="flex-fill barna">Gazdagrét<br><span class="font-weight-bold">Manó</span></div>
+							<div class="flex-fill"></div>
+						</div>
+					</div>
+				
+			</div>
+
 		</div>
 
 		<!--Órarend end-->
@@ -237,7 +363,7 @@
 
 		<div id="galeria" class="container-fluid gallery-container">
 
-			<h2>Edzés, évadzáró, tábor, fellépések</h2>
+			<h2 class="text-center">Edzés, évadzáró, tábor, fellépések</h2>
 
 			<p class="page-description text-center">Grid Layout With Zoom Effect</p>
 
@@ -246,67 +372,67 @@
 				<div class="row">
 					<div class="col-sm-6 col-md-4">
 						<a class="lightbox" href="img/edzes-1.jpg">
-							<img src="img/edzes-1.jpg" alt="Park">
+							<img src="img/edzes-1.jpg" alt="poz_1">
 						</a>
 					</div>
 					<div class="col-sm-6 col-md-4">
 						<a class="lightbox" href="img/edzes-2.jpg">
-							<img src="img/edzes-2.jpg" alt="Bridge">
+							<img src="img/edzes-2.jpg" alt="arnyek">
 						</a>
 					</div>
 					<div class="col-sm-6 col-md-4">
 						<a class="lightbox" href="img/edzes-3.jpg">
-							<img src="img/edzes-3.jpg" alt="Tunnel">
+							<img src="img/edzes-3.jpg" alt="tartas-1">
 						</a>
 					</div>
 					<div class="col-sm-6 col-md-4">
 						<a class="lightbox" href="img/edzes-4.jpg">
-							<img src="img/edzes-4.jpg" alt="Coast">
+							<img src="img/edzes-4.jpg" alt="tartas-2">
 						</a>
 					</div>
 					<div class="col-sm-6 col-md-4">
 						<a class="lightbox" href="img/edzes-5.jpg">
-							<img src="img/edzes-5.jpg" alt="Rails">
+							<img src="img/edzes-5.jpg" alt="kicsik">
 						</a>
 					</div>
 					<div class="col-sm-6 col-md-4">
 						<a class="lightbox" href="img/edzes-6.jpg">
-							<img src="img/edzes-6.jpg" alt="Traffic">
+							<img src="img/edzes-6.jpg" alt="kicsik_telapoban">
 						</a>
 					</div>
 					<div class="col-sm-6 col-md-4">
 						<a class="lightbox" href="img/edzes-7.jpg">
-							<img src="img/edzes-7.jpg" alt="Rocks">
+							<img src="img/edzes-7.jpg" alt="kicsik_korbefekve">
 						</a>
 					</div>
 					<div class="col-sm-6 col-md-4">
 						<a class="lightbox" href="img/edzes-8.jpg">
-							<img src="img/edzes-8.jpg" alt="Benches">
+							<img src="img/edzes-8.jpg" alt="hulye_csoportkep">
 						</a>
 					</div>
 					<div class="col-sm-6 col-md-4">
 						<a class="lightbox" href="img/edzes-9.jpg">
-							<img src="img/edzes-9.jpg" alt="Sky">
+							<img src="img/edzes-9.jpg" alt="koteles_1">
 						</a>
 					</div>
 					<div class="col-sm-6 col-md-4">
 						<a class="lightbox" href="img/edzes-10.jpg">
-							<img src="img/edzes-10.jpg" alt="Sky">
+							<img src="img/edzes-10.jpg" alt="koteles_2">
 						</a>
 					</div>
 					<div class="col-sm-6 col-md-4">
 						<a class="lightbox" href="img/edzes-11.jpg">
-							<img src="img/edzes-11.jpg" alt="Sky">
+							<img src="img/edzes-11.jpg" alt="ugras">
 						</a>
 					</div>
 					<div class="col-sm-6 col-md-4">
 						<a class="lightbox" href="img/edzes-12.jpg">
-							<img src="img/edzes-12.jpg" alt="Sky">
+							<img src="img/edzes-12.jpg" alt="poz_2">
 						</a>
 					</div>
 				</div>
 
-		
+
 			</div>
 
 		</div>
@@ -315,11 +441,69 @@
 
 		<!--Elérhetőség start-->
 
-		<div id="elerhetoseg" class="container-fluid">
-			
+		<div id="elerhetoseg" class="container">
+			<div class="row">
+				<div class="col-sm-12 col-lg-12">
+					<h2>Elérhetőség</h2>
+					<p>Ha szeretnél velünk kapcsolatba lépni, keresd <span class="font-weight-bold">Manót</span> az alábbi elérhetőségek egyikén.</p>
+				</div>
+
+				<div class="col-sm-12 col-lg-9">
+					<h3>Küldj levelet</h3>
+					<form action="">
+						<div class="row pt-3 pb-3">
+							<div class="col">
+								<input class="form-control" type="text" placeholder="Név">
+							</div>
+							<div class="col">
+								<input class="form-control" type="text" placeholder="telefonszám">
+							</div>
+						</div>
+
+						<div class="row pt-3 pb-3">
+							<div class="col">
+								<input class="form-control" type="text" placeholder="email">
+							</div>
+						</div>
+
+						<div class="row pt-3 pb-3">
+							<div class="col">
+								<textarea class="form-control" name="" id="" cols="30" rows="10" placeholder="üzenet"></textarea>
+							</div>
+						</div>
+
+						<div class="row pt-3 pb-3">
+							<div class="col">
+								<button type="submit" class="btn btn-primary">Elküld</button>
+							</div>
+						</div>
+
+					</form>
+				</div>
+
+
+				<div class="col-sm-12 col-lg-3">
+					<h3>Telefon, email</h3>
+					<div class="row pt-3 pb-3">
+						<div class="col ">
+							<p><a href="tel">+36 20 123 4567</a></p>
+							<p><a href="mailto:@">valami@valami.hu</a></p>
+						</div>
+					</div>
+				</div>
+			</div>
 		</div>
 
 		<!--Elérhetőség end-->
+
+		<!--Footer start-->
+
+		<footer class="container-fluid text-center bg-footer">
+
+			<p>Szivárvány Táncszínház / <a href="tel">+36 20 123 4567</a> / <a href="mailto:@">valami@valami.hu</a> / <a href="https://www.facebook.com/Sziv%C3%A1rv%C3%A1ny-T%C3%A1ncsz%C3%ADnh%C3%A1z-1476584075925859" target="_blank" class="fa fa-facebook"></a></p>
+		</footer>
+
+		<!--Footer end-->
 
 	</main><!-- /.container -->
 
@@ -331,6 +515,44 @@
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 	<script src="script.js"></script>
+
+	<!--Órarend-->
+	<script>
+		function myMap1() {
+			var mapProp = {
+				center: new google.maps.LatLng(47.491997, 19.013633),
+				zoom: 17,
+			};
+			var map = new google.maps.Map(document.getElementById("hegyvidek"), mapProp);
+		}
+	</script>
+
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCqZg1ioflUchWuS0V6pOF_ZdBCB1twLAI&callback=myMap1"></script>
+
+	<script>
+		function myMap2() {
+			var mapProp = {
+				center: new google.maps.LatLng(47.4680794, 18.998006),
+				zoom: 17,
+			};
+			var map = new google.maps.Map(document.getElementById("gazdagret"), mapProp);
+		}
+	</script>
+
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCqZg1ioflUchWuS0V6pOF_ZdBCB1twLAI&callback=myMap2"></script>
+
+	<script>
+		function myMap3() {
+			var mapProp = {
+				center: new google.maps.LatLng(47.498786, 18.986818),
+				zoom: 17,
+			};
+			var map = new google.maps.Map(document.getElementById("jokai"), mapProp);
+		}
+	</script>
+
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCqZg1ioflUchWuS0V6pOF_ZdBCB1twLAI&callback=myMap3"></script>
+
 	<!--Fellépések - gallery-->
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.js"></script>
 	<script>
