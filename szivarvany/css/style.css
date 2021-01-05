@@ -20,6 +20,21 @@ html {
 	background-color: #fffaf3;
 }
 
+.parallax {
+	background-image: url("../img/parallax.jpg");
+	min-height: 200px; 
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.parallax-bg {
+	background: rgba(255,255,255,0.9);
+}
+
+/* Órarend start */
+
 .lila {
 	background-color: #B51E92;
 	color: #FFFFFF;
@@ -57,6 +72,17 @@ html {
 	background-color: greenyellow;
 	color: #FFFFFF;
 }
+
+/*@media(max-width: 1200px) {
+	.table {
+		font-size: 0.6em;
+	}
+	tr {
+		padding: 0;
+	}
+}*/
+
+/* Órarend end */
 
 /* Fellépések - gallery start 
 

@@ -20,7 +20,7 @@
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
 	<!-- Place your stylesheet here-->
-	<link href="/style.css" rel="stylesheet" type="text/css">
+	<link href="css/style.css" rel="stylesheet" type="text/css">
 
 
 	<!--Fellépések - gallery-->
@@ -123,11 +123,15 @@
 		<!--Rolunk end-->
 
 		<!--Helyszínek start-->
-
-		<div id="helyszinek" class="container">
-			<h2 class="text-center">Az alábbi helyszíneken tartunk edzéseket</h2>
-			<div class="row shadow mt-5 mb-5">
-
+		
+		<div id="helyszinek"><h2 class="text-center">Az alábbi helyszíneken tartunk edzéseket</h2></div>
+		
+		<div class="container-fluid parallax">
+			
+			<div class="container">
+		
+			<div class="row p-3 mt-5 parallax-bg">
+				
 				<div class="col-12 col-sm-12 col-lg-4">
 					<h4>Hegyvidéki Kulturális Szalon</h4>
 					<p>Budapest, Törpe u. 2, 1124</p>
@@ -136,7 +140,7 @@
 
 			</div>
 
-			<div class="row shadow mt-5 mb-5">
+			<div class="row p-3 mt-5 parallax-bg">
 				<div class="col-12 col-sm-12 col-lg-8" id="gazdagret" style="height:400px;">
 
 				</div>
@@ -146,7 +150,7 @@
 				</div>
 			</div>
 
-			<div class="row shadow mt-5 mb-5">
+			<div class="row p-3 mt-5 mb-5 parallax-bg">
 				<div class="col-12 col-sm-12 col-lg-4">
 					<h4>Jókai Klub</h4>
 					<p>Budapest, Hollós út 5, 1121</p>
@@ -156,14 +160,14 @@
 				</div>
 
 			</div>
-
+			</div>
 		</div>
 
 		<!--Helyszínek end-->
 
 		<!--Órarend start-->
 
-		<div id="orarend" class="container table-responsive">
+		<div id="orarend" class="container">
 			<h2 class="text-center">Órarend</h2>
 			<div class="list-group">
 				<a href="" class="list-group-item list-group-item-action lila">Hegyvidék szalon / Zsófi / Gyerek 9-14 évesek</a>
@@ -173,9 +177,9 @@
 				<a href="" class="list-group-item list-group-item-action sarga">Jókai klub / Manó / Gyerek 9-14 évesek</a>
 			</div>
 			<br><br>
-
-			<div class="table-bordered table-responsive">
-			<table class="table">
+			
+			<div class="table-responsive">
+			<table class="table table-bordered text-center">
 				<thead>
 					<tr>
 						<th style="width: 10%;">idő</th>
@@ -316,124 +320,6 @@
 					</tr>
 				</tbody>
 				</table>
-			</div>
-			<div class="text-center small">
-			
-					<div class="d-flex flex-row justify-content-between head-lila">
-						<div class="">idő</div>
-						<div class="">Hétfő</div>
-						<div class="">Kedd</div>
-						<div class="">Szerda</div>
-						<div class="">Csütörtök</div>
-						<div class="">Péntek</div>
-					</div>
-				
-					<div class="d-flex flex-row justify-content-between halvany-lila2">
-						<div class="">16:00-16:30</div>
-						<div class=""> </div>
-						<div class=" d-flex flex-row justify-content-between">
-							<div class="lila">Hegyvidék<br><span class="font-weight-bold">Zsófi</span></div>
-							<div class="kek">Jókai klub<br><span class="font-weight-bold">Manó</span></div>
-						</div>
-						<div class="d-flex flex-row justify-content-between">
-							<div class="barna">Gazdagrét<br><span class="font-weight-bold">Manó</span></div>
-							<div class=""> </div>
-						</div>
-						<div class="d-flex flex-row justify-content-between">
-							<div class="lila">Hegyvidék<br><span class="font-weight-bold">Zsófi</span></div>
-							<div class=""> </div>
-						</div>"
-						<div class="d-flex flex-row justify-content-between">
-							<div class="barna">Gazdagrét<br><span class="font-weight-bold">Manó</span></div>
-							<div class=""> </div>
-						</div>
-					</div>
-					<div class="d-flex halvany-lila1">
-						<div class="flex-fill">16:30-17:00</div>
-						<div class="flex-fill"></div>
-						<div class="flex-fill d-flex justify-content-center">
-							<div class="flex-fill lila">Hegyvidék<br><span class="font-weight-bold">Zsófi</span></div>
-							<div class="flex-fill kek">Jókai klub<br><span class="font-weight-bold">Manó</span></div>
-						</div>
-						<div class="flex-fill d-flex justify-content-center">
-							<div class="flex-fill barna">Gazdagrét<br><span class="font-weight-bold">Manó</span></div>
-							<div class="flex-fill"></div>
-						</div>
-						<div class="flex-fill d-flex justify-content-center">
-							<div class="flex-fill lila">Hegyvidék<br><span class="font-weight-bold">Zsófi</span></div>
-							<div class="flex-fill kek">Jókai klub<br><span class="font-weight-bold">Manó</span></div>
-						</div>
-						<div class="flex-fill d-flex justify-content-center">
-							<div class="flex-fill barna">Gazdagrét<br><span class="font-weight-bold">Manó</span></div>
-							<div class="flex-fill"></div>
-						</div>
-					</div>
-					<div class="d-flex halvany-lila2">
-						<div class="flex-fill">17:00-17:30</div>
-						<div class="flex-fill"></div>
-						<div class="flex-fill d-flex justify-content-center">
-							<div class="flex-fill"></div>
-							<div class="flex-fill sarga">Jókai klub<br><span class="font-weight-bold">Manó</span></div>
-						</div>
-						<div class="flex-fill d-flex justify-content-center">
-							<div class="flex-fill barna">Gazdagrét<br><span class="font-weight-bold">Manó</span></div>
-							<div class="flex-fill"></div>
-						</div>
-						<div class="flex-fill d-flex justify-content-center">
-							<div class="flex-fill"></div>
-							<div class="flex-fill kek">Jókai klub<br><span class="font-weight-bold">Manó</span></div>
-						</div>
-						<div class="flex-fill d-flex justify-content-center">
-							<div class="flex-fill barna">Gazdagrét<br><span class="font-weight-bold">Manó</span></div>
-							<div class="flex-fill"></div>
-						</div>
-					</div>
-					<div class="d-flex halvany-lila1">
-						<div class="flex-fill">17:30-18:00</div>
-						<div class="flex-fill"></div>
-						<div class="flex-fill d-flex justify-content-center">
-							<div class="flex-fill"></div>
-							<div class="flex-fill sarga">Jókai klub<br><span class="font-weight-bold">Manó</span></div>
-						</div>
-						<div class="flex-fill d-flex justify-content-center">
-							<div class="flex-fill barna">Gazdagrét<br><span class="font-weight-bold">Manó</span></div>
-							<div class="flex-fill"></div>
-						</div>
-						<div class="flex-fill d-flex justify-content-center">
-							<div class="flex-fill"></div>
-							<div class="flex-fill sarga">Jókai klub<br><span class="font-weight-bold">Manó</span></div>
-						</div>
-						<div class="flex-fill d-flex justify-content-center">
-							<div class="flex-fill barna">Gazdagrét<br><span class="font-weight-bold">Manó</span></div>
-							<div class="flex-fill"></div>
-						</div>
-					</div>
-					<div class="d-flex halvany-lila2">
-						<div class="flex-fill">18:00-18:30</div>
-						<div class="flex-fill"></div>
-						<div class="flex-fill"></div>
-						<div class="flex-fill"></div>
-						<div class="flex-fill d-flex justify-content-center">
-							<div class="flex-fill"></div>
-							<div class="flex-fill sarga">Jókai klub<br><span class="font-weight-bold">Manó</span></div>
-						</div>
-						<div class="flex-fill d-flex justify-content-center">
-							<div class="flex-fill barna">Gazdagrét<br><span class="font-weight-bold">Manó</span></div>
-							<div class="flex-fill"></div>
-						</div>
-					</div>
-					<div class="d-flex halvany-lila1">
-						<div class="flex-fill">18:30-19:00</div>
-						<div class="flex-fill"></div>
-						<div class="flex-fill"></div>
-						<div class="flex-fill"></div>
-						<div class="flex-fill"></div>
-						<div class="flex-fill d-flex justify-content-center">
-							<div class="flex-fill barna">Gazdagrét<br><span class="font-weight-bold">Manó</span></div>
-							<div class="flex-fill"></div>
-						</div>
-					</div>
-				
 			</div>
 
 		</div>
