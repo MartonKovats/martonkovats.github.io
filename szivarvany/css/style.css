@@ -33,6 +33,26 @@ html {
 	background: rgba(255,255,255,0.9);
 }
 
+a {
+	text-decoration: none!important;
+}
+
+@media (max-width: 992px){
+	#gazdagret, {
+	order:1;
+	}
+	#elerheto_szoveg {
+		order:1;
+	} 
+	#elerheto_telefon {
+		order:2;
+	}
+	#elerheto_form {
+		order:3;
+	}
+}
+
+
 /* Órarend start */
 
 .lila {
@@ -178,5 +198,11 @@ body {
 .fa-facebook {
 	background: #3B5998;
 	color: white;
+}
 
-	/* Footer end */
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+/* Footer end */
