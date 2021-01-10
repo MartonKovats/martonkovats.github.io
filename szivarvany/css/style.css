@@ -2,6 +2,10 @@ html {
 	scroll-behavior: smooth;
 }
 
+body {
+	background-color: rgb(224, 161, 214);
+}
+
 .navbar {
 	opacity: 0.85;
 }
@@ -13,11 +17,6 @@ html {
 
 .row {
 	padding: 50px 0;
-}
-
-#rolunk,
-#fellepesek {
-	background-color: #fffaf3;
 }
 
 .parallax {
@@ -38,58 +37,47 @@ a {
 }
 
 @media (max-width: 992px){
-	#gazdagret, {
-	order:1;
-	}
-	#elerheto_szoveg {
+	#gazdagret {
 		order:1;
-	} 
-	#elerheto_telefon {
-		order:2;
 	}
-	#elerheto_form {
-		order:3;
+	#gazdagret_kh {
+		order:2;
 	}
 }
 
 
 /* Órarend start */
 
+#orarend {
+	background-color: rgb(224, 198, 220);
+}
+
+table, th, td {
+	border: 1px solid black!important;
+}
+
 .lila {
-	background-color: #B51E92;
+	background-color: #A31C8F;
 	color: #FFFFFF;
 }
 
-.head-lila {
-	background-color: rgba(181, 30, 146, 0.5);
-
-}
-
-.halvany-lila1 {
-	background-color: rgba(181, 30, 146, 0.2);
-}
-
-.halvany-lila2 {
-	background-color: rgba(181, 30, 146, 0.1);
-}
-
-.kek {
-	background-color: #6A48D9;
+.s_lila {
+	background-color: #57064B;
 	color: #FFFFFF;
 }
 
 .barna {
-	background-color: chocolate;
+	background-color: #A38D2C;
 	color: #FFFFFF;
 }
 
 .zold {
-	background-color: #48D98C;
+	background-color: #0BA399;
 	color: #FFFFFF;
 }
 
-.sarga {
-	background-color: greenyellow;
+.s_zold {
+	background-color: #0A5752;
 	color: #FFFFFF;
 }
 
@@ -111,7 +99,7 @@ body {
     min-height: 100vh;
     font: normal 16px sans-serif;
     padding: 60px 0;
-}*/
+}
 
 .container.gallery-container {
 	background-color: #fff;
@@ -134,7 +122,7 @@ body {
 	margin: 25px auto;
 	color: #888;
 	font-size: 18px;
-}
+}*/
 
 .tz-gallery {
 	padding: 40px;
@@ -173,6 +161,26 @@ body {
 }
 
 /* Fellépések - gallery end */
+
+/* Elérhetőség start */
+
+@media (max-width: 992px) {
+	#elerheto_szoveg {
+		order:1;
+	} 
+	#elerheto_telefon {
+		order:2;
+	}
+	#elerheto_form {
+		order:3;
+	}
+}
+
+#elerhetoseg {
+	background-color: rgb(224, 198, 220);
+}
+
+/* Elérhetőség end */
 
 /* Footer start */
 
