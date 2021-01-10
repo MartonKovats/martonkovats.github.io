@@ -2,8 +2,16 @@ html {
 	scroll-behavior: smooth;
 }
 
+:target:before {
+    content: "";
+    display: block;
+    height: 60px;
+}
+
+
 body {
 	background-color: rgb(224, 161, 214);
+	font-family: 'Open Sans', sans-serif;
 }
 
 .navbar {
@@ -13,10 +21,6 @@ body {
 .container-fluid {
 	padding-left: 0;
 	padding-right: 0;
-}
-
-.row {
-	padding: 50px 0;
 }
 
 .parallax {
@@ -81,48 +85,9 @@ table, th, td {
 	color: #FFFFFF;
 }
 
-/*@media(max-width: 1200px) {
-	.table {
-		font-size: 0.6em;
-	}
-	tr {
-		padding: 0;
-	}
-}*/
-
 /* Órarend end */
 
-/* Fellépések - gallery start 
-
-body {
-    background-image: linear-gradient(to top, #ecedee 0%, #eceeef 75%, #e7e8e9 100%);
-    min-height: 100vh;
-    font: normal 16px sans-serif;
-    padding: 60px 0;
-}
-
-.container.gallery-container {
-	background-color: #fff;
-	color: #35373a;
-	min-height: 100vh;
-	border-radius: 20px;
-	box-shadow: 0 8px 15px rgba(0, 0, 0, 0.06);
-}
-
-.gallery-container h1 {
-	text-align: center;
-	margin-top: 70px;
-	font-family: 'Droid Sans', sans-serif;
-	font-weight: bold;
-}
-
-.gallery-container p.page-description {
-	text-align: center;
-	max-width: 800px;
-	margin: 25px auto;
-	color: #888;
-	font-size: 18px;
-}*/
+/* Fellépések - gallery start */
 
 .tz-gallery {
 	padding: 0 40px;
