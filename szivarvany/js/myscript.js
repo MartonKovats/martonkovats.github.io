@@ -29,22 +29,22 @@ function initialize() {
 		};
 
 document.getElementById('btnEdzes').onclick = function() {
-	galeria('edzes');
+	galeria('edzes','Edzés');
 };
 
 document.getElementById('btnEvadzaro').onclick = function() {
-    galeria('evadzaro');
+    galeria('evadzaro','Évadzáró');
 };
 
 document.getElementById('btnTabor').onclick = function() {
-    galeria('tabor');
+    galeria('tabor','Tábor');
 };
 
 document.getElementById('btnFellepesek').onclick = function() {
-    galeria('fellepesek');
+    galeria('fellepesek','Fellépések');
 };
 
-function galeria(galleryType){
+function galeria(galleryType,galleryName){
 	var gallery =" ";	
 	for (let kep = 1; kep <= 12; kep++) {
 		gallery += '<div class=\"col-sm-6 col-md-4\"><a class=\"lightbox\" href=\"img/';
@@ -56,8 +56,9 @@ function galeria(galleryType){
 		gallery = gallery + galleryType + '-' + kep;
 		gallery += '\"></a></div>';
 	}
-		
+		document.getElementById('galeriaNev').innerHTML = galleryName;
     document.getElementById('galeriaKepek').innerHTML = gallery;
+	
 	baguetteBox.run('.tz-gallery');
 	};
 	
