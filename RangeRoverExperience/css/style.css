@@ -1,0 +1,27 @@
+html {
+	scroll-behavior: smooth;
+}
+body {
+	background-color: rgba(168, 61, 25,0.45);
+	font-family: 'Open Sans', sans-serif;
+}
+.navbar {
+	opacity: 0.85;
+}
+
+.container-fluid {
+	padding-left: 0;
+	padding-right: 0;
+}
+.parallax {
+	background-image: url("../img/landrover2.jpg");
+	min-height: 600px; 
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.parallax-bg {
+	background: rgba(0,0,0,0.5);
+}
