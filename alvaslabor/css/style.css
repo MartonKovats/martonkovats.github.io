@@ -1,0 +1,67 @@
+html {
+	scroll-behavior: smooth;
+
+}
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	background-color: #EBE3FC;
+}
+
+#kep {
+	position: relative;
+	padding: 0;
+}
+
+.kepszoveg {
+	position: absolute;
+	top: 150px;
+	left: 140px;
+	background: rgba(0, 0, 0, 0.6);
+	color: #f1f1f1;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+#rendeles {
+	border: 2px solid;
+	border-radius: 5px;
+}
+
+/*
+#bemutatkozas {
+	background-color: #C4C5E8;
+}
+*/
+
+h1 {
+	font-size: 3rem;
+}
+
+@media screen and (max-width: 544px) {
+	h1 {
+		font-size: 1.3rem;
+	}
+
+	h2 {
+		font-size: 1rem;
+	}
+
+}
+
+@media screen and (max-width: 768px) {
+	h1 {
+		font-size: 1.8rem;
+	}
+
+	h2 {
+		font-size: 1.5rem;
+	}
+}
+
+
+.bg-footer {
+	background-color: black;
+	color: white;
+	padding: 20px 0;
+}
