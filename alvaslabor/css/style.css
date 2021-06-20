@@ -5,7 +5,7 @@ html {
 
 body {
 	font-family: 'Open Sans', sans-serif;
-	background-color: #EBE3FC;
+	background: rgba(88, 219, 69, 0.4);
 }
 
 #kep {
@@ -24,8 +24,8 @@ body {
 }
 
 #rendeles {
-	border: 2px solid;
-	border-radius: 5px;
+	border-top: 2px solid;
+	border-bottom: 2px solid;
 }
 
 /*
@@ -33,6 +33,14 @@ body {
 	background-color: #C4C5E8;
 }
 */
+
+p, ul li, A {
+	font-size: 1.25rem;
+}
+
+a:link {
+	color: #160B8F;
+}
 
 h1 {
 	font-size: 3rem;
