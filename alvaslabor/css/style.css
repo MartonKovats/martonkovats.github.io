@@ -34,8 +34,9 @@ body {
 }
 */
 
-p, ul li, A {
+p, ul li, a {
 	font-size: 1.25rem;
+	font-weight: 600;
 }
 
 a:link {
